@@ -1,0 +1,18 @@
+{
+  "name": "pdfmake-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "pdf": "node createPDFCommand.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "pdfmake": "^0.2.7"
+  }
+}
